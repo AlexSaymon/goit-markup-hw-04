@@ -86,6 +86,13 @@ a {
 .nav-item {
 }
 
+/* .nav-item:hover::after {
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--OCEAN, #404bbf);
+} */
+
 .nav-header {
   font-size: 16px;
   font-weight: 500;
@@ -144,6 +151,14 @@ a {
 
 .main-section {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7) 70%,
+      rgba(46, 47, 66, 0.7) 70%
+    ),
+    url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -196,6 +211,17 @@ button:focus {
 
 .description-item {
   width: calc((100% - 72px) / 4);
+}
+
+.svg-description {
+}
+
+.svg-background {
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+  padding: 24px 100px;
+  margin-bottom: 8px;
 }
 
 .decription-headerthree {
