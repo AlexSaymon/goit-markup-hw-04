@@ -98,6 +98,10 @@ a {
   height: 4px;
 }
 
+.adress-item {
+  position: relative;
+}
+
 .adress-item:hover::after {
   content: "";
   position: absolute;
