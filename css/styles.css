@@ -86,12 +86,12 @@ a {
 .nav-item {
 }
 
-/* .nav-item:hover::after {
+.nav-item:hover {
+  border-radius: 2px;
+  background: #404bbf;
   width: 48px;
   height: 4px;
-  border-radius: 2px;
-  background: var(--OCEAN, #404bbf);
-} */
+}
 
 .nav-header {
   font-size: 16px;
@@ -408,13 +408,18 @@ button:focus {
 
 .footer-social {
   margin-bottom: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .svg-team-footer {
-  gap: 16px;
 }
 
 .footer-right {
+  gap: 16px;
 }
 
 .footer-left {
