@@ -405,3 +405,18 @@ button:focus {
 .container-footer {
   display: flex;
 }
+
+.footer-social {
+  margin-bottom: 16px;
+}
+
+.svg-team-footer {
+  gap: 16px;
+}
+
+.footer-right {
+}
+
+.footer-left {
+  margin-right: 120px;
+}
