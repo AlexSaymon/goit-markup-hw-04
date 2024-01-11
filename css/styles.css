@@ -96,7 +96,9 @@ a {
   background: #404bbf;
   width: 0%;
   height: 4px;
-  transition-duration: 400ms;
+  transition-property: width;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-item:hover::after {
@@ -116,7 +118,9 @@ a {
   background: #404bbf;
   width: 0;
   height: 4px;
-  transition-duration: 400ms;
+  transition-property: width;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-item:hover::after {
@@ -136,7 +140,9 @@ a {
   text-decoration: none;
   color: #2e2f42;
   padding: 24px 0;
-  transition-duration: 400ms;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-header .nav-link:hover {
@@ -144,7 +150,6 @@ a {
 }
 
 .nav-header .nav-link:active {
-  text-decoration: underline;
   color: #404bbf;
 }
 
@@ -170,7 +175,9 @@ a {
 .nav-link-mailphone {
   text-decoration: none;
   color: #434455;
-  transition-duration: 400ms;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link-mailphone:hover,
@@ -222,7 +229,9 @@ a {
   margin: 0 auto;
   display: block;
   min-width: 169px;
-  transition-duration: 400ms;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -426,7 +435,9 @@ button:focus {
   height: 100%;
   padding: 40px 32px 164px;
   transform: translateY(100%);
-  transition-duration: 400ms;
+  transition-property: translateY(0%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-anim-text {
