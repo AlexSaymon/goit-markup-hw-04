@@ -141,10 +141,11 @@ a {
   font-style: normal;
   display: flex;
   margin-left: auto;
-  padding: 24px 0;
 }
 
 .nav-link-mailphone {
+  padding: 24px 0;
+  display: block;
   text-decoration: none;
   color: #434455;
   transition-property: color;
