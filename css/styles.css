@@ -84,6 +84,7 @@ a {
 .nav-menu {
   display: flex;
   align-items: center;
+  align-items: center;
 }
 
 .nav-item {
@@ -100,6 +101,7 @@ a {
 
 .nav-link {
   display: block;
+  padding: 24px 0;
 }
 
 .nav-link-relative {
